@@ -15,8 +15,17 @@
     | leaky_relu          | 0.9531            | 0.2126        | 20        |
     |_____________________|___________________|_______________|___________|
 
+Elu
 ![Elu Graph](01-hyperparameters/plots/elu1.png "Elu")
+
+Relu
 ![Relu Graph](01-hyperparameters/plots/relu1.png "Relu")
+
+Selu
 ![Selu Graph](01-hyperparameters/plots/selu1.png "Selu")
-![Swish Graph](01-hyperparameters/plots/swish.png "Swish")
-![Leaky Relu Graph](01-hyperparameters/plots/leaky_relu.png "Leaky Relu")
+
+Swish
+![Swish Graph](01-hyperparameters/plots/swish1.png "Swish")
+
+Leaky Relu
+![Leaky Relu Graph](01-hyperparameters/plots/leaky_relu1.png "Leaky Relu")
