@@ -4,6 +4,11 @@
 
     I chose the following values:
     leaky_relu, elu, relu, selu and swish
+
+    Validation accuracy was used as the main performance metric because it measures how well the network generalizes to unseen images.
+    Validation loss was also monitored to detect overfitting.
+    Due to stochastic elements in training, results may vary between runs. Therefore, multiple plots where generated for each function.
+
     The results are:
 
     | activation function | best val_accuracy | best val_loss | n epochs  |
