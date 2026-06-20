@@ -1,21 +1,18 @@
 def calculate_bbox(x1, y1, x2, y2, image_width, image_height):
+    # ensure ordering
     x_left = min(x1, x2)
-    x_right = max(x1, x2)
     y_top = min(y1, y2)
+    x_right = max(x1, x2)
     y_bottom = max(y1, y2)
 
-    bbox_width = x_right - x_left
-    bbox_height = y_bottom - y_top
+    # convert to normalized top-left format
+    x = x_left / image_width
+    y = y_top / image_height
 
-    x_center = x_left + bbox_width / 2
-    y_center = y_top + bbox_height / 2
+    w = (x_right - x_left) / image_width
+    h = (y_bottom - y_top) / image_height
 
-    return [
-        x_center / image_width,
-        y_center / image_height,
-        bbox_width / image_width,
-        bbox_height / image_height,
-    ]
+    return [x, y, w, h]
 
 
 bbox1 = calculate_bbox(
