@@ -34,3 +34,13 @@ Swish
 
 Leaky Relu
 ![Leaky Relu Graph](01-hyperparameters/plots/leaky_relu1.png "Leaky Relu")
+
+# Gathering a Dataset
+
+    A model was trained using hyperparameters.ipynb by setting CONDITIONS = ['like', 'peace', 'rock']
+    The result can be found at 02-dataset/gesture_recognition.keras
+    The exercise was a bit unambiguous whether the final plot should be a single one or for each tutor and personal image set
+    Therefor I did both and added them to 02-dataset.
+
+The combined result looks like this:
+![Combined Conf Matrix](02-dataset/confusion_matrix_combined.png "Combined Conf Matrix")

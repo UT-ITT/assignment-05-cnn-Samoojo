@@ -1,0 +1,94 @@
+{
+  "a51efe68-0706-11ee-be56-0242ac120002": {
+    "bboxes": [
+      [0.30208333, 0.30648148, 0.06354166, 0.16203703],
+      [0.49895833, 0.89722222, 0.0453125, 0.10185185]
+    ],
+    "labels": ["rock", "no_gesture"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+
+  "b07f10ea-0706-11ee-be56-0242ac120002": {
+    "bboxes": [
+      [0.29322916, 0.31481481, 0.06041666, 0.17962962],
+      [0.49479166, 0.88333333, 0.0546875, 0.12037037]
+    ],
+    "labels": ["peace", "no_gesture"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+
+  "cfb6a98c-0706-11ee-be56-0242ac120002": {
+    "bboxes": [
+      [0.37708333, 0.22592592, 0.04322916, 0.10277777],
+      [0.521875, 0.5787037, 0.02552083, 0.06574074]
+    ],
+    "labels": ["peace", "no_gesture"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+
+  "d9322dd8-0706-11ee-be56-0242ac120002": {
+    "bboxes": [
+      [0.40104166, 0.29259259, 0.02864583, 0.08425925],
+      [0.51770833, 0.55833333, 0.0265625, 0.06759259]
+    ],
+    "labels": ["like", "no_gesture"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+
+  "de64dbb6-0706-11ee-be56-0242ac120002": {
+    "bboxes": [
+      [0.35260416, 0.35092592, 0.06666666, 0.15185185],
+      [0.48125, 0.83888888, 0.05208333, 0.12222222]
+    ],
+    "labels": ["like", "no_gesture"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+
+  "41ad59ce-0706-11ee-be56-0242ac120002": {
+    "bboxes": [[0.52760417, 0.29074074, 0.2171875, 0.41296296]],
+    "labels": ["rock"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "left",
+    "user_id": ""
+  },
+  "image-01": {
+    "bboxes": [[0.24719344, 0.75404793, 0.24827288, 0.28335492]],
+    "labels": ["like"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+  "image-02": {
+    "bboxes": [[0.22020725, 0.61998057, 0.30224525, 0.28465026]],
+    "labels": ["rock"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+  "image-03": {
+    "bboxes": [[0.19235751, 0.60249352, 0.30785838, 0.33646373]],
+    "labels": ["peace"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  }
+}
