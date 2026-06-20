@@ -1,0 +1,26 @@
+{
+  "image-01": {
+    "bboxes": [[0.24719344, 0.75404793, 0.24827288, 0.28335492]],
+    "labels": ["like"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+  "image-02": {
+    "bboxes": [[0.22020725, 0.61998057, 0.30224525, 0.28465026]],
+    "labels": ["rock"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  },
+  "image-03": {
+    "bboxes": [[0.19235751, 0.60249352, 0.30785838, 0.33646373]],
+    "labels": ["peace"],
+    "landmarks": [],
+    "leading_conf": 1.0,
+    "leading_hand": "right",
+    "user_id": ""
+  }
+}
