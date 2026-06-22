@@ -44,3 +44,14 @@ Leaky Relu
 
 The combined result looks like this:
 ![Combined Conf Matrix](02-dataset/confusion_matrix_combined.png "Combined Conf Matrix")
+
+# Gesture-based Media Controls
+
+    A model was trained using hyperparameters.ipynb by setting CONDITIONS = ['like', 'stop', 'peace']
+    The result can be found at 03-media_control/gesture_recognition.keras
+    Controls:
+        Like will start the track
+        Stop will pause the track
+        Piece will skip the track
+        Q will quit the application
+    The green rectangle indicates the part used to make the prediction. It will select the larges non-white object in the frame. To get more accurate results, it helps to use a virtual background set to white. This comes build-in with mac-os but you can achieve the same using OBS and a virtual background plugin. Also you can simply use a white cartboard but this requires good lighting conditions and adjusting the --white-threshold
