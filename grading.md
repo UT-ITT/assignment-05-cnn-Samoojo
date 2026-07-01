@@ -1,4 +1,4 @@
-# Samoojo (8/15P)
+# Samoojo (11/15P)
 
 ## 1. Exploring Hyperparameters (3.5/5P)
 * Selected hyperparameter values make sense
@@ -21,18 +21,18 @@
     * yep (1P)
 
 
-## 3. Gesture-based Media Controls (1/6P)
+## 3. Gesture-based Media Controls (4/6P)
 * Three hand poses are tracked and distinguished reliably  
-    * see down below
+    * works reliably only when just the hand is in the webcam; like generally works a bit unreliable (1P)
 * There is a way of handling no gesture, that works 
-    * see down below
+    * yep (1P)
 * Three media control features are implemented 
     * yep (1P)
 * Mapping of gestures to media controls works and makes sense
-    * see down below
+    * like and stop triggers same media control (0.5P)
 * Low latency between gesture and the systems reaction
-    * see down below
-* we could not get the application to detect anything, we are not sure whether its a macOS to Windows problem, if its working perfectly on your system, feel free to show it to us the next time
+    * yep (1P)
+* we could not get the application to detect anything, we are not sure whether its a macOS to Windows problem, if its working perfectly on your system, feel free to show it to us the next time || Edit 01.07.: tried it again with Mac, however the white threshold that should've worked with our setup (see README) did not work (-0.5P)
 
 # Code Quality
 * no requirements.txt (-0.5P)
